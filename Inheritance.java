@@ -53,7 +53,7 @@ class Standard_account
         public static void main(String[] args) 
         {
             Premium_account view = new Premium_account("Keerthana", "9363733822", "keersbabu0609@gmail.com");
-            view.shopping("Boat Ear buds");
+            view.shopping("Ear buds");
             view.delivery();
             view.deactivate_account();
             view.prime_video();

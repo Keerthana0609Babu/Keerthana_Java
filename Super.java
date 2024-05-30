@@ -9,8 +9,8 @@ class Student
     }
     void display()
     {
-        System.out.println("Name: " + name);
-        System.out.println("Roll. no: "+rno);
+        System.out.println("Name       : " + name);
+        System.out.println("Roll. no   : "+rno);
     }
 }
 class Marks extends Student
@@ -27,16 +27,16 @@ class Marks extends Student
         void display()
         {
             super.display();
-            System.out.println("Mark 1: "+m1);
-            System.out.println("Mark 2: "+m2);
-            System.out.println("Mark 3: "+m3);
+            System.out.println("Mathematics: "+m1);
+            System.out.println("Physics    : "+m2);
+            System.out.println("Chemistry  : "+m3);
         }
     }
 public class Super 
 {
     public static void main(String[] args) 
     {
-        Marks obj = new Marks("Keerthana", 1001, 99,89,89);
+        Marks obj = new Marks("Keerthana Babu", 1001, 99,89,89);
         obj.display();
     }
 }
